@@ -11,7 +11,7 @@ public class RefactoringFinal {
 	}
 
 	// 1b
-	public void findFilledOrders(List<Order> o) {
+	public void findFilledOrdersAndReturnTheseInAList(List<Order> o) {
 		for (Order order : orders) {
 			if (order.isFilled()) {
 				o.add(order);
@@ -114,7 +114,7 @@ public class RefactoringFinal {
 
 	void justACaller() {
 	    increaseAndReturnCount();
-	    findFilledOrders(null);
+	    findFilledOrdersAndReturnTheseInAList(null);
 	}
 
 	private void printValue(double total) {
