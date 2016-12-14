@@ -1,5 +1,3 @@
-
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -55,8 +53,8 @@ public class refactoringOriginal {
 	public void printPrice() {
 
 		double basePrice = getBasePrice();
-		System.out.println("Hind ilma k√§ibemaksuta: " + basePrice);
-		System.out.println("Hind k√§ibemaksuga: " + basePrice * 1.2);
+		System.out.println("Hind ilma k‰ibemaksuta: " + basePrice);
+		System.out.println("Hind k‰ibemaksuga: " + basePrice * 1.2);
 	}
 
 	// 5
@@ -97,7 +95,7 @@ public class refactoringOriginal {
 
 	////////////////////////////////////////////////////////////////////////////
 
-	// Abiv√§ljad ja abimeetodid.
+	// Abiv‰ljad ja abimeetodid.
 	// Need on siin lihtsalt selleks, et kood kompileeruks
 
 	private String item1 = "1";
