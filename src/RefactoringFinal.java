@@ -166,7 +166,7 @@ public class RefactoringFinal {
 	private double price = 0;
 
 	void justACaller() {
-		getCount();
+		increaseAndReturnCount();
 		addFilledOrders(null);
 	}
 
